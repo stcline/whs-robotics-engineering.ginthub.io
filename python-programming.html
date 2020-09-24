@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 5 Python Programming | Robotics Engineering</title>
   <meta name="description" content="During your particpation in the Robotics Engineering Course here at Windsor High School, you will use this online book as a guide through the content." />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 5 Python Programming | Robotics Engineering" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Steve Cline" />
 
 
-<meta name="date" content="2020-07-28" />
+<meta name="date" content="2020-09-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -198,7 +198,7 @@ NOTE: For the initial setup we will use the monitor, keyboard and mouse. Eventua
 <div id="controlling-the-pi-with-ssh" class="section level3">
 <h3><span class="header-section-number">5.1.2</span> Controlling the Pi with SSH</h3>
 <p>For many, it may be easiest just to use the Raspberry Pi as a standalone computer. In order to do this one just needs to keep the Pi connected to a monitor, keyboard and mouse. One of the main advantages of this is that one can just turn on the Pi, wait for the boot sequence to finish and start programming using the terminal. Another advantage is that other programming interfaces may be used such as Notepad++ which has built in code highlighting and markup functions that make programming in Python, and other languages, easier. More advanced users might even choose to install an interface like PyCharm which has even more functions aimed at enhancing the programming experience and may be connected to Git or an online code repository like GitHub. Maybe the biggest advantage of programming from the Pi desktop environment is that a web browser may be easily used alongside the command line terminal or programming interface.</p>
-<p>Eventually though, we will all need to sever our connection to the peripherals. Imagine trying to test out a mobile robot system with the monitor still attached. When we make the switch we start interacting with the Pi through SSH (Secure Shell). This concept is not as difficult to understand as one might think. Essentially you are accessing the terminal window for the Pi through another computer using a piece of software like Putty. When both devices are connected to the same router, this is a fairly simple process. While we will not require this yet, it is strongly recommended that every student go over this process which is detailed in the section titled <a href="course-materials-and-instructions.html#controlling-the-raspberry-pi-remotely">Controlling the Raspberry Pi Remotely</a> in the last chapter of this book sometime in the first semester. The Capstone project will require this so we might as well get used to it now. Most will probably switch back and forth between using the Pi as a desktop computer and accessing it via SSH.</p>
+<p>Eventually though, we will all need to sever our connection to the peripherals. Imagine trying to test out a mobile robot system with the monitor still attached. When we make the switch we start interacting with the Pi through SSH (Secure Shell). This concept is not as difficult to understand as one might think. Essentially you are accessing the terminal window for the Pi through another computer using a piece of software like Putty. When both devices are connected to the same router, this is a fairly simple process. While we will not require this yet, it is strongly recommended that every student go over this process which is detailed in the section titled [Controlling the Raspberry Pi Remotely] in the last chapter of this book sometime in the first semester. The Capstone project will require this so we might as well get used to it now. Most will probably switch back and forth between using the Pi as a desktop computer and accessing it via SSH.</p>
 </div>
 </div>
 <div id="the-parts-of-the-rpi-and-pinout" class="section level2">
@@ -329,7 +329,7 @@ Read the chapter from <a href="https://greenteapress.com/wp/think-python-2e/" ta
 </div>
 <div id="conditionals" class="section level2">
 <h2><span class="header-section-number">5.6</span> Conditionals</h2>
-<p>Besides completing repetitive tasks for us humans, robots need to be able to make decisions based on the condition of their environment. Later, we will learn how to use sensors to understand what is happening in a robot’s environment. First, we will learn how conditional statements work in Python. If you have not already done so, it might be helpful to get a little background on computer logic. The inventor of the logical system we use in robotics was George Boole. There is a video in the <a href="going-further-with-robotics.html#supplemental-videos">Supplemental Videos</a> section of this book about his contributions to the field.</p>
+<p>Besides completing repetitive tasks for us humans, robots need to be able to make decisions based on the condition of their environment. Later, we will learn how to use sensors to understand what is happening in a robot’s environment. First, we will learn how conditional statements work in Python. If you have not already done so, it might be helpful to get a little background on computer logic. The inventor of the logical system we use in robotics was George Boole. There is a video in the [Supplemental Videos] section of this book about his contributions to the field.</p>
 <p>For now, we will concern ourselves with some basic <i>logical</i> or <i>Boolean</i> operators. These are different than mathematical operators. When we write the following statement using mathematical operators:</p>
 <p><code>x = 6</code></p>
 <p>we are making a statement that the variable <code>x</code> is <i>equal to</i> the integer 6. By contrast, when we use the same operator (=) in logical math we are <i>asking</i> “Is one equal to the other?” We script that questions like this:</p>
